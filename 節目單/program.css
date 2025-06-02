@@ -20,17 +20,17 @@ img {
 
 @font-face {
   font-family: Parisienne;
-  src: url(font/Parisienne-Regular.ttf);
+  src: url(font/TaipeiSansTCBeta-Bold.ttf);
 }
 
 @font-face {
   font-family: NotoSansTC-Thin;
-  src: url(font/NotoSansTC-Thin.otf);
+  src: url(font/微軟正黑體-1.ttf);
 }
 
 @font-face {
   font-family: NotoSansTC-Light;
-  src: url(font/NotoSansTC-Light.otf);
+  src: url(font/微軟正黑體-1.ttf);
 }
 
 h2 {
@@ -60,7 +60,7 @@ p {
   line-height: 36px;
   letter-spacing: 2px;
   font-size: 17px;
-  color: #171717;
+  color: #403b40;
 }
 
 .box {
@@ -140,6 +140,16 @@ p {
 
 .passage p {
   padding: 8px 25px;
+}
+
+h5:has(img){
+  display:flex;
+}
+
+h5 img{
+  height:16px;
+  width:fit-content;
+  margin-right:4px;
 }
 
 /*-------navigationbar-------*/
@@ -470,15 +480,16 @@ a {
   font-weight: bold;
   text-align: left;
   padding-left: 25px;
-  letter-spacing: 0.2em;
-  font-size: 24px;
+  letter-spacing: 0.1em;
+  font-size: 28px;
   margin-bottom: 16px;
   padding-right: 16px;
+  line-height:36px;
 }
 
 #page3 h3.composer {
   padding-top: 0px;
-  color: #5a3e65;
+  color: #785e82;
   font-weight: bold;
   text-align: left;
   padding-left: 25px;
@@ -554,4 +565,16 @@ h4 {
 
 #SpthankList p {
   padding: 0px;
+}
+
+.song h3{
+  font-family:Parisienne;
+}
+
+#page2 p.box{
+  padding:16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 24px 16px 72px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
 }
